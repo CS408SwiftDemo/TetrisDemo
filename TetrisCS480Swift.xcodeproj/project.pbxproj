@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2F1D222F1D31B2190096CD9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D222E1D31B2190096CD9E /* AppDelegate.swift */; };
-		2F1D22311D31B2190096CD9E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D22301D31B2190096CD9E /* GameScene.sks */; };
 		2F1D22331D31B2190096CD9E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D22321D31B2190096CD9E /* GameScene.swift */; };
 		2F1D22351D31B2190096CD9E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D22341D31B2190096CD9E /* GameViewController.swift */; };
 		2F1D22381D31B2190096CD9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D22361D31B2190096CD9E /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		2F1D222B1D31B2190096CD9E /* TetrisCS480Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TetrisCS480Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1D222E1D31B2190096CD9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F1D22301D31B2190096CD9E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2F1D22321D31B2190096CD9E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2F1D22341D31B2190096CD9E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2F1D22371D31B2190096CD9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				2F1D222E1D31B2190096CD9E /* AppDelegate.swift */,
-				2F1D22301D31B2190096CD9E /* GameScene.sks */,
 				2F1D22321D31B2190096CD9E /* GameScene.swift */,
 				2F1D22341D31B2190096CD9E /* GameViewController.swift */,
 				2F1D22361D31B2190096CD9E /* Main.storyboard */,
@@ -235,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F1D22311D31B2190096CD9E /* GameScene.sks in Resources */,
 				2F1D223D1D31B2190096CD9E /* LaunchScreen.storyboard in Resources */,
 				2F1D223A1D31B2190096CD9E /* Assets.xcassets in Resources */,
 				2F1D22381D31B2190096CD9E /* Main.storyboard in Resources */,
@@ -494,6 +490,7 @@
 				2F1D22591D31B2190096CD9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F1D225A1D31B2190096CD9E /* Build configuration list for PBXNativeTarget "TetrisCS480SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +499,7 @@
 				2F1D225C1D31B2190096CD9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F1D225D1D31B2190096CD9E /* Build configuration list for PBXNativeTarget "TetrisCS480SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +508,7 @@
 				2F1D225F1D31B2190096CD9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
