@@ -22,6 +22,7 @@
 		2FF781941D31B8DC00A305BB /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7818F1D31B8DC00A305BB /* theme.mp3 */; };
 		2FF781961D31B8E500A305BB /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2FF781951D31B8E500A305BB /* Sprites.atlas */; };
 		2FF781981D31BFE600A305BB /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF781971D31BFE600A305BB /* Array2D.swift */; };
+		2FF7819A1D31C1FF00A305BB /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF781991D31C1FF00A305BB /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2FF7818F1D31B8DC00A305BB /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
 		2FF781951D31B8E500A305BB /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		2FF781971D31BFE600A305BB /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		2FF781991D31C1FF00A305BB /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				2F1D222E1D31B2190096CD9E /* AppDelegate.swift */,
 				2F1D22321D31B2190096CD9E /* GameScene.swift */,
+				2FF781991D31C1FF00A305BB /* Block.swift */,
 				2F1D22341D31B2190096CD9E /* GameViewController.swift */,
 				2F1D22361D31B2190096CD9E /* Main.storyboard */,
 				2F1D22391D31B2190096CD9E /* Assets.xcassets */,
@@ -296,6 +299,7 @@
 			files = (
 				2F1D22331D31B2190096CD9E /* GameScene.swift in Sources */,
 				2FF781981D31BFE600A305BB /* Array2D.swift in Sources */,
+				2FF7819A1D31C1FF00A305BB /* Block.swift in Sources */,
 				2F1D22351D31B2190096CD9E /* GameViewController.swift in Sources */,
 				2F1D222F1D31B2190096CD9E /* AppDelegate.swift in Sources */,
 			);
