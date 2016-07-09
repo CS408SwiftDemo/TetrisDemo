@@ -11,8 +11,21 @@ import SpriteKit
 
 class GameViewController: UIViewController {
 
+    var scene: GameScene!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //Configure for the view.
+        let skView = view as! SKView
+        skView.multipleTouchEnabled = false
+        
+        //Creating and configuring the Scene
+        scene = GameScene(size: skView.bounds.size)
+        scene.scaleMode = .AspectFill
+        
+        //Display scene
+        skView.presentScene(scene)
     }
 
     override func prefersStatusBarHidden() -> Bool {

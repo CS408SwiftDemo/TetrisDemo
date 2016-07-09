@@ -15,6 +15,12 @@
 		2F1D223D1D31B2190096CD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1D223B1D31B2190096CD9E /* LaunchScreen.storyboard */; };
 		2F1D22481D31B2190096CD9E /* TetrisCS480SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D22471D31B2190096CD9E /* TetrisCS480SwiftTests.swift */; };
 		2F1D22531D31B2190096CD9E /* TetrisCS480SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D22521D31B2190096CD9E /* TetrisCS480SwiftUITests.swift */; };
+		2FF781901D31B8DC00A305BB /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7818B1D31B8DC00A305BB /* bomb.mp3 */; };
+		2FF781911D31B8DC00A305BB /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7818C1D31B8DC00A305BB /* drop.mp3 */; };
+		2FF781921D31B8DC00A305BB /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7818D1D31B8DC00A305BB /* gameover.mp3 */; };
+		2FF781931D31B8DC00A305BB /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7818E1D31B8DC00A305BB /* levelup.mp3 */; };
+		2FF781941D31B8DC00A305BB /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7818F1D31B8DC00A305BB /* theme.mp3 */; };
+		2FF781961D31B8E500A305BB /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2FF781951D31B8E500A305BB /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		2F1D224E1D31B2190096CD9E /* TetrisCS480SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisCS480SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1D22521D31B2190096CD9E /* TetrisCS480SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisCS480SwiftUITests.swift; sourceTree = "<group>"; };
 		2F1D22541D31B2190096CD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FF7818B1D31B8DC00A305BB /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		2FF7818C1D31B8DC00A305BB /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		2FF7818D1D31B8DC00A305BB /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		2FF7818E1D31B8DC00A305BB /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		2FF7818F1D31B8DC00A305BB /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		2FF781951D31B8E500A305BB /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,8 @@
 				2F1D22391D31B2190096CD9E /* Assets.xcassets */,
 				2F1D223B1D31B2190096CD9E /* LaunchScreen.storyboard */,
 				2F1D223E1D31B2190096CD9E /* Info.plist */,
+				2FF781951D31B8E500A305BB /* Sprites.atlas */,
+				2FF7818A1D31B8DC00A305BB /* Sounds */,
 			);
 			path = TetrisCS480Swift;
 			sourceTree = "<group>";
@@ -126,6 +140,18 @@
 				2F1D22541D31B2190096CD9E /* Info.plist */,
 			);
 			path = TetrisCS480SwiftUITests;
+			sourceTree = "<group>";
+		};
+		2FF7818A1D31B8DC00A305BB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2FF7818B1D31B8DC00A305BB /* bomb.mp3 */,
+				2FF7818C1D31B8DC00A305BB /* drop.mp3 */,
+				2FF7818D1D31B8DC00A305BB /* gameover.mp3 */,
+				2FF7818E1D31B8DC00A305BB /* levelup.mp3 */,
+				2FF7818F1D31B8DC00A305BB /* theme.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +259,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1D223D1D31B2190096CD9E /* LaunchScreen.storyboard in Resources */,
+				2FF781911D31B8DC00A305BB /* drop.mp3 in Resources */,
+				2FF781941D31B8DC00A305BB /* theme.mp3 in Resources */,
+				2FF781921D31B8DC00A305BB /* gameover.mp3 in Resources */,
 				2F1D223A1D31B2190096CD9E /* Assets.xcassets in Resources */,
+				2FF781931D31B8DC00A305BB /* levelup.mp3 in Resources */,
+				2FF781961D31B8E500A305BB /* Sprites.atlas in Resources */,
+				2FF781901D31B8DC00A305BB /* bomb.mp3 in Resources */,
 				2F1D22381D31B2190096CD9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
